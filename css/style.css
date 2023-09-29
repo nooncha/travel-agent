@@ -1341,6 +1341,7 @@ blockquote {
 #slvj-back-lightbox {
     max-width: 940px;
     max-height: 529px;
+    position: relative;
     z-index: 32;
     text-align: center;
     margin: 0 auto;
@@ -1366,7 +1367,7 @@ blockquote {
     z-index: 99999;
     height: 22px;
     width: 22px;
-    position: absolute;
+    position: fixed;
     top: 15px;
     right: 15px;
     cursor: pointer;
